@@ -25,7 +25,7 @@ In this folder, using one order to start our project:
 
 Then, you can visit on http://localhost:80 to see our project running on your local.
 
-###Note: Not all function run normally on docker. If you want to use prediction function, please goto [BioMaster2.0](http://bio.biomaster-uestc.com/public/index.php/main/home) have a try!!!
+### Note: Not all function run normally on docker. If you want to use prediction function, please goto [BioMaster2.0](http://bio.biomaster-uestc.com/public/index.php/main/home) have a try!!!
 
 
 ## Abuout BioMaster2.0
