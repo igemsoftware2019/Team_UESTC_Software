@@ -1,0 +1,28 @@
+checks:
+  php:
+    code_rating: true
+    duplication: true
+
+filter:
+  excluded_paths:
+    - tests/*
+
+build:
+  environment:
+    php:
+      version: '7.2'
+  nodes:
+    analysis:
+      environment:
+        variables:
+          ELASTICSEARCH_HOST: 'localhost:9200'
+      services:
+        elasticsearch: 6.6.2
+      tests:
+        override:
+          - php-scrutinizer-run
+          -
+            command: 'vendor/bin/phpunit --coverage-clover=coverage.clover'
+            coverage:
+              file: 'coverage.clover'
+              format: 'clover'
