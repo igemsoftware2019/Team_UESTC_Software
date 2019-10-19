@@ -38,10 +38,10 @@ Based on the version 1.0, BioMaster 2.0 has significantly stridden in three aspe
 
 All endeavors make BioMaster 2.0 a more integrated and more user-friendly database, which provides synthetic biologists with stable data updating and search services in the long term.
 
-## BioMe
+## BioME
 
-Hope to make the idea of ynthetic biology more accessible and easier to the public, we decided to develop a puzzle game. BioMe comes out.
+Hope to make the idea of ynthetic biology more accessible and easier to the public, we decided to develop a puzzle game. BioME comes out.
  
-### usage
-After clone, go to folder BioMe where contain all we need. Just click "Catan(1).exe" to play. Remeber unchecking "windowed".
-For linux user, you need get help from wine running BioMe.
+  ### Usage
+After clone, go to folder BioME where contain all we need. Just click "Catan(1).exe" to play. Remeber unchecking "windowed".
+For linux user, you need get help from wine running BioME.
