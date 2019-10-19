@@ -1,3 +1,4 @@
 blast_screen/blast/datasets/feature_parts.txt filter=lfs diff=lfs merge=lfs -text
 uestcdock/data/mysql/a/parts.ibd filter=lfs diff=lfs merge=lfs -text
 uestcdock/data/mysql/a/parts_es.ibd filter=lfs diff=lfs merge=lfs -text
+uestcdock/data/mysql/a/reference.ibd filter=lfs diff=lfs merge=lfs -text
