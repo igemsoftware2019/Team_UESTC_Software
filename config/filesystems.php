@@ -67,8 +67,8 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => 'AKIAIRSJBROZWR24M42A',
-            'secret' => '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',
+            'key' => '',
+            'secret' => '',
             'region' => 'us-east-2',
             'bucket' => 'igem123',
             'url' => 'https://biomaster.s3-us-east-2.amazonaws.com/',
