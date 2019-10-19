@@ -1,0 +1,86 @@
+
+
+.rect1 {
+	background-image: url(../../svg/rectForMax.svg);
+	background-size: 100% 100%;
+	display: inline-block;
+	z-index: -1;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.rect2 {
+	background-image: url(../../svg/rectForMin.svg);
+	background-size: 100% 100%;
+	display: inline-block;
+	z-index: -1;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.blankEnd{
+	font-size: 20px;
+	color:#f0ffff;
+	line-height:53px;
+	height:130px;
+	min-width:10px;
+	text-align:center;
+	background-size: auto 80%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	margin-left: -4px;
+	background:#f0ffff;
+}
+
+.line{
+	font-size: 20px;
+	color:red;
+	line-height:53.1px;
+	height:130px;
+	min-width:100px;
+	max-width:350px;
+	text-align:center;
+	background-size: auto 80%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	margin-right: -5px;
+	/* background-image: url(../SVG/line.svg); */
+}
+
+.mytooltip{
+	background-color: #1EA5D2;
+	padding:10px;
+	border-radius: 8px;
+	position: absolute;
+	opacity :0.8;
+	display: none;
+	max-width: 200px;
+	white-space:pre-wrap ;
+	word-break:break-all;
+	z-index:9999;
+	}
+	
+.mytooltip div{
+	text-align:center;
+	line-height: 16px;
+	font-weight: 700;
+	font-size:16px;
+	margin-bottom: -15px;
+	}
+	
+.arrow {
+	width: 0;
+	height: 0;
+	border: 10px solid;
+	border-color: #1EA5D2 transparent transparent transparent;
+	position: absolute;
+	opacity :0.8;
+	display: none;
+}

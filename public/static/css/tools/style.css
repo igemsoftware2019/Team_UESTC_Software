@@ -1,0 +1,420 @@
+/* *{margin:0;padding:0;} */
+/* 小屏幕（平板，大于等于 768px） */
+body{background: url(../../images/bk.png);
+background-size: cover;
+min-width: 800px;}
+
+
+/*@media (max-width: 767px){*/
+/* 	.signin{
+		position: relative;
+		padding-top: 6px;
+		margin: 0;
+		width:140px;
+		height:50px;
+		margin-top: 10px;
+		
+		
+		
+	}	
+	.sousuo{
+		position: relative;
+		height: 250px;
+		width:310px;
+		padding-top: 5px;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		background-image: url(images/Tool1_small.png);
+		padding-left: 100px;
+		background-repeat:no-repeat ;
+	
+	
+	}
+	
+	.sousuo_4{
+		position: relative;
+		height: 250px;
+		width:310px;
+		padding-top: 5px;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		background-image: url(images/Tool2_small.png);
+		padding-left: 100px;
+		background-repeat:no-repeat ;
+	
+	
+	}
+
+	.content_1{
+		position: absolute;
+	    width: 70px;
+	    height: 90px;
+		top:-3px;
+		left:-97px;
+		
+		
+	}
+	.content_2{
+		position: absolute;
+	    width: 70px;
+	    height: 90px;
+		
+		top:92px;
+		left:-97px;
+		
+		
+	}
+	
+
+	h1{	
+		margin: 7px !important;
+		font-size: 25px !important;
+	}
+	h3{
+		margin: 5px !important;
+		font-size: 10px !important;
+	}
+
+	.form-control{
+		height: 20px !important;
+		padding: 0!important;
+		margin: 0 !important;
+	}
+	.btn{
+		margin-top: 5px !important;
+		width: 100px;
+		margin-left: 30px;
+	}
+	 */
+/*	.signin{*/
+/*		position: relative;*/
+/*		margin-top: 90px;*/
+/*		margin-bottom: 20px;*/
+/*		padding-bottom: 600px;*/
+/*		width:300px;*/
+/*		height:150px;		*/
+/*		margin-left: -90px;*/
+/*	}	*/
+/*	.sousuo{*/
+/*		position: relative;*/
+/*		height: 420px;*/
+/*		width: 730px;*/
+/*		margin-top: 20px;*/
+/*		padding-top: 10px;*/
+/*		background-image: url(../../images/Tool_1.png);*/
+/*		padding-left: 320px;*/
+/*		padding-bottom:550px;*/
+/*		background-repeat: no-repeat;*/
+	
+	
+/*	}*/
+/*	.sousuo_4{*/
+/*		position: relative;*/
+/*		height: 420px;*/
+/*		width: 730px;*/
+/*		margin-top: 20px;*/
+/*		padding-top: 10px;*/
+/*		background-image: url(../../images/Tool_2.png);*/
+/*		padding-left: 320px;*/
+/*		padding-bottom:550px;*/
+/*		background-repeat: no-repeat;*/
+	
+	
+	
+/*	}*/
+	
+/*	.content_1{*/
+/*		position: absolute;*/
+/*		width: 170px;*/
+/*		height: 220px;*/
+/*		top:-65px;*/
+/*		left:-293px;*/
+		
+		
+/*	}*/
+/*	.content_2{*/
+/*		position: absolute;*/
+/*	    width: 170px;*/
+/*	    height: 220px;*/
+/*	    top:150px;*/
+/*	    left:-293px;*/
+		
+		
+/*	}*/
+	
+/*}*/
+	
+
+
+/*@media (min-width: 768px) and (max-width: 992px) {*/
+/*.signin{*/
+/*	position: relative;*/
+/*	margin-top: 90px;*/
+/*	margin-bottom: 20px;*/
+/*	padding-bottom: 600px;*/
+/*	width:300px;*/
+/*	height:150px;		*/
+/*	margin-left: -90px;*/
+/*}	*/
+/*.sousuo{*/
+/*	position: relative;*/
+/*	height: 420px;*/
+/*	width: 730px;*/
+/*	margin-top: 20px;*/
+/*	padding-top: 10px;*/
+/*	background-image: url(../../images/Tool_1.png);*/
+/*	padding-left: 320px;*/
+/*	padding-bottom:550px;*/
+/*	background-repeat: no-repeat;*/
+
+
+/*}*/
+/*.sousuo_4{*/
+/*	position: relative;*/
+/*	height: 420px;*/
+/*	width: 730px;*/
+/*	margin-top: 20px;*/
+/*	padding-top: 10px;*/
+/*	background-image: url(../../images/Tool_2.png);*/
+/*	padding-left: 320px;*/
+/*	padding-bottom:550px;*/
+/*	background-repeat: no-repeat;*/
+
+
+
+/*}*/
+
+/*.content_1{*/
+/*	position: absolute;*/
+/*	width: 170px;*/
+/*	height: 220px;*/
+/*	top:-65px;*/
+/*	left:-293px;*/
+	
+	
+/*}*/
+/*.content_2{*/
+/*	position: absolute;*/
+/*    width: 170px;*/
+/*    height: 220px;*/
+/*    top:150px;*/
+/*    left:-293px;*/
+	
+	
+/*}*/
+
+
+	
+	
+/*}*/
+
+
+/*@media (min-width: 992px){*/
+/*	.signin {*/
+/*	padding-top: 270px;*/
+/*	width:300px;*/
+/*	height:478px;*/
+/*	padding-bottom: 630px;*/
+/*	position:relative;*/
+/*	top:50%;*/
+/*	left: 55%;*/
+/*	margin-top:-220px;*/
+/*	margin-left:-220px;*/
+/*	z-index: 100;*/
+	
+
+/*}*/
+
+
+
+
+/*.sousuo{*/
+/*	position: relative;*/
+/*	height: 400px;*/
+/*	width: 730px;*/
+/*	background-image: url(../../images/Tool_1.png);*/
+/*	margin-top: 80px;*/
+/*	padding-left: 120px;*/
+/*	padding-bottom: 550px;*/
+/*	background-repeat: no-repeat;*/
+/*}*/
+
+/*.sousuo_4{*/
+/*	position: relative;*/
+/*	height: 400px;*/
+/*	width: 730px;*/
+/*	background-image: url(../../images/Tool_2.png);*/
+/*	margin-top: 80px;*/
+/*	padding-left: 120px;*/
+/*	padding-bottom: 550px;*/
+/*	background-repeat: no-repeat;*/
+/*}*/
+
+
+/*.bk{*/
+/*	height: 350px;*/
+/*}*/
+/*.bk span{*/
+/*	font-size: 36px !important;*/
+/*	height: 87.5px;*/
+/*	border: #000000;*/
+/*	border-width: 0.0625rem;*/
+/*}*/
+/*.content_1{*/
+/*	position: absolute;*/
+/*    width: 170px;*/
+/*    height: 220px;*/
+/*    top:40px;*/
+/*	left:-345px;*/
+	
+	
+/*}*/
+/*.content_2{*/
+/*	position: absolute;*/
+/*	width: 170px;*/
+/*	height: 220px;*/
+/*	top:250px;*/
+/*	left:-345px;*/
+	
+	
+/*}*/
+
+
+/*}*/
+
+
+/*@media (min-width: 1200px) {*/
+/*	.signin {*/
+/*	padding-top: 270px;*/
+/*	width:300px;*/
+/*	height:478px;*/
+/*	padding-bottom: 650px;*/
+/*	position:relative;*/
+/*	top:50%;*/
+/*	left: 55%;*/
+/*	margin-top:-180px;*/
+/*	margin-left:-238px;*/
+/*	z-index: 100;*/
+	
+
+/*}*/
+
+
+
+/*.sousuo{*/
+/*	position: relative;*/
+/*	height: 400px;*/
+/*	width: 730px;*/
+/*	background-image: url(../../images/tools.jpg);*/
+/*	padding-left: 6.25rem;*/
+/*	padding-bottom: 550px;*/
+/*	margin-top: 80px;*/
+/*	background-repeat:no-repeat ;*/
+
+/*}*/
+
+
+
+/*.bk{*/
+/*	height: 350px;*/
+/*}*/
+/*.bk span{*/
+/*	font-size: 36px !important;*/
+/*	height: 87.5px;*/
+/*	border: #000000;*/
+/*	border-width: 0.0625rem;*/
+/*}*/
+/*.content_1{*/
+/*	position: absolute;*/
+/*    width: 170px;*/
+/*    height: 220px;*/
+/*	top:30px;*/
+/*	left:-368px;*/
+	
+	
+/*}*/
+/*.content_2{*/
+/*	position: absolute;*/
+/*    width: 170px;*/
+/*    height:220px;*/
+/*	top:255px;*/
+/*	left:-368px;*/
+	
+	
+/*}*/
+
+
+
+/*.sousuo_4{*/
+/*	position: relative;*/
+/*	height: 400px;*/
+/*	width: 730px;*/
+/*	background-image: url(../../images/Tool_2.png);*/
+/*	padding-left: 6.25rem;*/
+/*	padding-bottom: 550px;*/
+/*	margin-top: 80px;*/
+/*	background-repeat:no-repeat ;*/
+	
+/*}	*/
+/*}*/
+.one{
+	background: red;
+}
+	.signin {
+	padding-top: 270px;
+	width:300px;
+	height:478px;
+	position:relative;
+	top:50%;
+	left: 55%;
+	margin-top:-180px;
+	margin-left:-238px;
+	z-index: 100;
+	
+
+}
+
+
+
+.sousuo{
+	position: relative;
+	height: 400px;
+	width: 730px;
+	background-image: url(../../images/tools.jpg);
+	padding-left: 6.25rem;
+	padding-bottom: 550px;
+	margin-top: 80px;
+	background-repeat:no-repeat ;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+
+
+.bk{
+	height: 350px;
+}
+.bk span{
+	font-size: 36px !important;
+	height: 87.5px;
+	border: #000000;
+	border-width: 0.0625rem;
+}
+.content_1{
+	position: absolute;
+    width: 170px;
+    height: 220px;
+	top:30px;
+	left:-368px;
+	
+	
+}
+.content_2{
+	position: absolute;
+    width: 170px;
+    height:220px;
+	top:255px;
+	left:-368px;
+	
+	
+}

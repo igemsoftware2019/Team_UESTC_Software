@@ -1,0 +1,826 @@
+body {
+	background: url(../../images/bk.png);
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+/*@media (max-width: 767px) {*/
+/*	.signin {*/
+/*		position: relative;*/
+/*		padding-top: 6px;*/
+/*		margin: 0;*/
+/*		width: 140px;*/
+/*		height: 50px;*/
+/*		margin-top: 10px;*/
+/*		 top:50%; */
+
+
+/*	}*/
+
+/*	.s_hidden {*/
+/*		display: none;*/
+/*	}*/
+
+/*	.sousuo {*/
+/*		position: relative;*/
+/*		height: 250px;*/
+/*		width: 310px;*/
+/*		padding-top: 5px;*/
+/*		margin-top: 15px;*/
+/*		margin-bottom: 0px;*/
+/*		background-image: url(../../images/搜索栏123_gaitubao_300x209.png);*/
+/*		padding-left: 100px;*/
+/*		background-repeat: no-repeat;*/
+
+
+/*	}*/
+
+/*	.sousuo_4 {*/
+/*		position: relative;*/
+/*		height: 250px;*/
+/*		width: 310px;*/
+/*		padding-top: 5px;*/
+/*		margin-top: 15px;*/
+/*		margin-bottom: 0px;*/
+/*		background-image: url(../../images/搜索栏2_gaitubao_300x209.png);*/
+/*		padding-left: 100px;*/
+/*		background-repeat: no-repeat;*/
+
+
+/*	}*/
+
+/*	.content_1 {*/
+/*		position: absolute;*/
+/*		width: 70px;*/
+/*		height: 90px;*/
+/*		top: -3px;*/
+/*		left: -97px;*/
+
+
+/*	}*/
+
+/*	.content_2 {*/
+/*		position: absolute;*/
+/*		width: 70px;*/
+/*		height: 90px;*/
+
+/*		top: 92px;*/
+/*		left: -97px;*/
+
+
+/*	}*/
+
+
+/*	h1 {*/
+/*		margin: 7px !important;*/
+/*		font-size: 17px !important;*/
+/*		font-weight: 600;*/
+/*	}*/
+
+/*	h3 {*/
+/*		margin: 5px !important;*/
+/*		font-size: 13px !important;*/
+/*	}*/
+
+/*	.form-control {*/
+/*		height: 20px !important;*/
+/*		padding: 0 !important;*/
+/*		margin: 0 !important;*/
+/*	}*/
+
+/*	.btn {*/
+/*		margin-top: 5px !important;*/
+/*		width: 100px;*/
+/*		margin-left: 30px;*/
+/*	}*/
+
+/*}*/
+
+
+
+/*@media (min-width: 768px) and (max-width: 992px) {*/
+/*	.signin {*/
+/*		position: relative;*/
+/*		margin-top: 90px;*/
+/*		margin-bottom: 20px;*/
+/*		padding-bottom: 600px;*/
+/*		width: 300px;*/
+/*		height: 150px;*/
+/*		margin-left: -90px;*/
+/*	}*/
+
+/*	.sousuo {*/
+/*		position: relative;*/
+/*		height: 420px;*/
+/*		width: 730px;*/
+/*		margin-top: 20px;*/
+/*		padding-top: 10px;*/
+/*		background-image: url(../../images/搜索栏123_gaitubao_724x505.png);*/
+/*		padding-left: 320px;*/
+/*		padding-bottom: 550px;*/
+/*		background-repeat: no-repeat;*/
+
+
+/*	}*/
+
+/*	.sousuo_4 {*/
+/*		position: relative;*/
+/*		height: 420px;*/
+/*		width: 730px;*/
+/*		margin-top: 20px;*/
+/*		padding-top: 10px;*/
+/*		background-image: url(../../images/搜索栏2_gaitubao_724x505.png);*/
+/*		padding-left: 320px;*/
+/*		padding-bottom: 550px;*/
+/*		background-repeat: no-repeat;*/
+
+
+
+/*	}*/
+
+/*	.content_1 {*/
+/*		position: absolute;*/
+/*		width: 170px;*/
+/*		height: 220px;*/
+/*		top: -65px;*/
+/*		left: -293px;*/
+
+
+/*	}*/
+
+/*	.content_2 {*/
+/*		position: absolute;*/
+/*		width: 170px;*/
+/*		height: 220px;*/
+/*		top: 150px;*/
+/*		left: -293px;*/
+
+
+/*	}*/
+
+
+
+
+/*}*/
+
+
+/*@media (min-width: 992px) {*/
+/*	.signin {*/
+/*		padding-top: 270px;*/
+/*		width: 300px;*/
+/*		height: 478px;*/
+/*		padding-bottom: 630px;*/
+/*		position: relative;*/
+/*		top: 50%;*/
+/*		left: 55%;*/
+/*		margin-top: -220px;*/
+/*		margin-left: -220px;*/
+/*		z-index: 100;*/
+
+
+/*	}*/
+
+
+
+
+/*	.sousuo {*/
+/*		position: relative;*/
+/*		height: 400px;*/
+/*		width: 730px;*/
+/*		background-image: url(../../images/搜索栏123_gaitubao_724x505.png);*/
+/*		margin-top: 80px;*/
+/*		padding-left: 120px;*/
+/*		padding-bottom: 550px;*/
+/*		background-repeat: no-repeat;*/
+/*	}*/
+
+/*	.sousuo_4 {*/
+/*		position: relative;*/
+/*		height: 400px;*/
+/*		width: 730px;*/
+/*		background-image: url(../../images/搜索栏2_gaitubao_724x505.png);*/
+/*		margin-top: 80px;*/
+/*		padding-left: 120px;*/
+/*		padding-bottom: 550px;*/
+/*		background-repeat: no-repeat;*/
+/*	}*/
+
+
+/*	.bk {*/
+/*		height: 350px;*/
+/*	}*/
+
+/*	.bk span {*/
+/*		font-size: 36px !important;*/
+/*		height: 87.5px;*/
+/*		border: #000000;*/
+/*		border-width: 0.0625rem;*/
+/*	}*/
+
+/*	.content_1 {*/
+/*		position: absolute;*/
+/*		width: 170px;*/
+/*		height: 220px;*/
+/*		top: 40px;*/
+/*		left: -345px;*/
+
+
+/*	}*/
+
+/*	.content_2 {*/
+/*		position: absolute;*/
+/*		width: 170px;*/
+/*		height: 220px;*/
+/*		top: 250px;*/
+/*		left: -345px;*/
+
+
+/*	}*/
+
+
+/*}*/
+
+
+/*@media (min-width: 1200px) {*/
+/*	.signin {*/
+/*		padding-top: 270px;*/
+/*		width: 300px;*/
+/*		height: 478px;*/
+/*		padding-bottom: 650px;*/
+/*		position: relative;*/
+/*		top: 50%;*/
+/*		left: 55%;*/
+/*		margin-top: -180px;*/
+/*		margin-left: -238px;*/
+/*		z-index: 100;*/
+
+
+/*	}*/
+
+
+
+/*	.sousuo {*/
+/*		position: relative;*/
+/*		height: 400px;*/
+/*		width: 730px;*/
+/*		background-image: url(../../images/预测界面.jpg);*/
+/*		padding-left: 6.25rem;*/
+/*		padding-bottom: 550px;*/
+/*		margin-top: 80px;*/
+/*		background-repeat: no-repeat;*/
+
+/*	}*/
+
+
+
+/*	.bk {*/
+/*		height: 350px;*/
+/*	}*/
+
+/*	.bk span {*/
+/*		font-size: 36px !important;*/
+/*		height: 87.5px;*/
+/*		border: #000000;*/
+/*		border-width: 0.0625rem;*/
+/*	}*/
+
+/*	.content_1 {*/
+/*		position: absolute;*/
+/*		width: 170px;*/
+/*		height: 220px;*/
+/*		top: 30px;*/
+/*		left: -368px;*/
+
+
+/*	}*/
+
+/*	.content_2 {*/
+/*		position: absolute;*/
+/*		width: 170px;*/
+/*		height: 220px;*/
+/*		top: 255px;*/
+/*		left: -368px;*/
+
+
+/*	}*/
+
+
+
+	/*.sousuo_4 {*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏2_gaitubao_724x505.png);*/
+	/*	padding-left: 6.25rem;*/
+	/*	padding-bottom: 550px;*/
+	/*	margin-top: 80px;*/
+	/*	background-repeat: no-repeat;*/
+
+	/*}*/
+/*}*/
+	.signin {
+		padding-top: 270px;
+		width: 300px;
+		height: 478px;
+		position: relative;
+		top: 50%;
+		left: 55%;
+		margin-top: -180px;
+		margin-left: -238px;
+		z-index: 100;
+
+
+	}
+
+
+
+	.sousuo {
+		position: relative;
+		height: 400px;
+		width: 730px;
+		background-image: url(../../images/预测界面.jpg);
+		padding-left: 6.25rem;
+		padding-bottom: 550px;
+		margin-top: 80px;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		box-shadow: 0 0 5px 3px #cacac9;
+		background-size: cover;
+	}
+
+
+
+	.bk {
+		height: 350px;
+	}
+
+	.bk span {
+		font-size: 36px !important;
+		height: 87.5px;
+		border: #000000;
+		border-width: 0.0625rem;
+	}
+
+	.content_1 {
+		position: absolute;
+		width: 170px;
+		height: 220px;
+		top: 30px;
+		left: -368px;
+
+
+	}
+
+	.content_2 {
+		position: absolute;
+		width: 170px;
+		height: 220px;
+		top: 255px;
+		left: -368px;
+
+
+	}
+
+
+
+	/*.sousuo_4 {*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏2_gaitubao_724x505.png);*/
+	/*	padding-left: 6.25rem;*/
+	/*	padding-bottom: 550px;*/
+	/*	margin-top: 80px;*/
+	/*	background-repeat: no-repeat;*/
+
+	/*}*/
+.one {
+	background: red;
+}
+	body {
+	background: url(../../images/bk.png);
+	background-size: cover;
+	overflow-x: hidden;
+}
+	/*@media (max-width: 767px){*/
+	/*	.signin{*/
+	/*		position: relative;*/
+	/*		padding-top: 30px;*/
+	/*		margin-top: 20px;*/
+	/*		margin-bottom: 20px;*/
+	/*		width:300px;*/
+	/*		height:150px;		*/
+	/*		top:50%;*/
+	/*		margin-left: -90px;*/
+	/*	}	*/
+	/*	.sousuo{*/
+	/*		position: relative;*/
+	/*		height: 420px;*/
+	/*		width: 730px;*/
+	/*		margin-top: -20px;*/
+	/*		padding-top: 0px;*/
+	/*		background-image: url(../../images/搜索栏_gaitubao_725x412.png);*/
+	/*		padding-left: 320px;*/
+	/*		padding-bottom: 1.25rem;*/
+		
+		
+	/*	}*/
+	/*	.sousuo_4{*/
+	/*		position: relative;*/
+	/*		height: 420px;*/
+	/*		width: 730px;*/
+	/*		margin-top: -20px;*/
+	/*		padding-top: 0px;*/
+	/*		background-image: url(../../images/搜索栏Blast_gaitubao_725x412.png);*/
+	/*		padding-left: 320px;*/
+	/*		padding-bottom: 1.25rem;*/
+		
+		
+	/*	}*/
+	/*	.sousuo_2{*/
+	/*		position: relative;*/
+	/*		height: 420px;*/
+	/*		width: 730px;*/
+	/*		margin-top: -20px;*/
+	/*		padding-top: 0px;*/
+	/*		background-image: url(../../images/搜索栏keyword_gaitubao_725x412.png);*/
+	/*		padding-left: 320px;*/
+	/*		padding-bottom: 1.25rem;*/
+		
+		
+	/*	}*/
+	/*	.sousuo_3{*/
+	/*		position: relative;*/
+	/*		height: 420px;*/
+	/*		width: 730px;*/
+	/*		margin-top: -20px;*/
+	/*		padding-top: 0px;*/
+	/*		background-image: url(../../images/搜索栏Team.png);*/
+	/*		padding-left: 320px;*/
+	/*		padding-bottom: 1.25rem;*/
+		
+		
+	/*	}*/
+	/*	.content_1{*/
+	/*		position: absolute;*/
+	/*		width: 170px;*/
+	/*		height: 80px;*/
+	/*		top:10px;*/
+	/*		left:-290px;*/
+			
+			
+	/*	}*/
+	/*	.content_2{*/
+	/*		position: absolute;*/
+	/*		width: 170px;*/
+	/*		height: 80px;*/
+	/*		top:100px;*/
+	/*		left:-290px;*/
+			
+			
+	/*	}*/
+		
+	/*	.content_3{*/
+	/*		position: absolute;*/
+	/*		width: 170px;*/
+	/*		height: 80px;*/
+	/*		top:190px;*/
+	/*		left:-290px;		*/
+	/*	}*/
+		
+	/*	.content_4{*/
+	/*		position: absolute;*/
+	/*		width: 170px;*/
+	/*		height: 80px;*/
+	/*		top:280px;*/
+	/*		left:-290px;		*/
+	/*	}*/
+		
+	/*}*/
+		
+	
+	
+	/*@media (max-width: 991px) {*/
+	/*.signin{*/
+	/*	position: relative;*/
+	/*	padding-top: 30px;*/
+	/*	margin-top: 20px;*/
+	/*	margin-bottom: 20px;*/
+	/*	width:300px;*/
+	/*	height:150px;		*/
+	/*	top:50%;*/
+	/*	margin-left: -90px;*/
+	/*}	*/
+	/*.sousuo{*/
+	/*	position: relative;*/
+	/*	height: 420px;*/
+	/*	width: 730px;*/
+	/*	margin-top: -20px;*/
+	/*	padding-top: 0px;*/
+	/*	background-image: url(../../images/搜索栏_gaitubao_725x412.png);*/
+	/*	padding-left: 320px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	
+	/*}*/
+	/*.sousuo_4{*/
+	/*	position: relative;*/
+	/*	height: 420px;*/
+	/*	width: 730px;*/
+	/*	margin-top: -20px;*/
+	/*	padding-top: 0px;*/
+	/*	background-image: url(../../images/搜索栏Blast_gaitubao_725x412.png);*/
+	/*	padding-left: 320px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	
+	/*}*/
+	/*.sousuo_2{*/
+	/*	position: relative;*/
+	/*	height: 420px;*/
+	/*	width: 730px;*/
+	/*	margin-top: -20px;*/
+	/*	padding-top: 0px;*/
+	/*	background-image: url(../../images/搜索栏keyword_gaitubao_725x412.png);*/
+	/*	padding-left: 320px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	
+	/*}*/
+	/*.sousuo_3{*/
+	/*	position: relative;*/
+	/*	height: 420px;*/
+	/*	width: 730px;*/
+	/*	margin-top: -20px;*/
+	/*	padding-top: 0px;*/
+	/*	background-image: url(../../images/搜索栏Team.png);*/
+	/*	padding-left: 320px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	
+	/*}*/
+	/*.content_1{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 80px;*/
+	/*	top:10px;*/
+	/*	left:-290px;*/
+		
+		
+	/*}*/
+	/*.content_2{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 80px;*/
+	/*	top:100px;*/
+	/*	left:-290px;*/
+		
+		
+	/*}*/
+	
+	/*.content_3{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 80px;*/
+	/*	top:190px;*/
+	/*	left:-290px;		*/
+	/*}*/
+	
+	/*.content_4{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 80px;*/
+	/*	top:280px;*/
+	/*	left:-290px;		*/
+	/*}*/
+		
+		
+	/*}*/
+	
+	
+	/*@media (min-width: 992px){.signin {*/
+	/*	padding-top: 270px;*/
+	/*	width:300px;*/
+	/*	height:478px;*/
+	/*	padding-bottom: 530px;*/
+	/*	position:relative;*/
+	/*	top:50%;*/
+	/*	left: 55%;*/
+	/*	margin-top:-239px;*/
+	/*	margin-left:-238px;*/
+	/*	z-index: 100;*/
+		
+	
+	/*}*/
+	
+	
+	
+	
+	/*.sousuo{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏_gaitubao_725x412.png);*/
+	/*	padding-left: 120px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	/*}*/
+	
+	
+	/*.sousuo_4{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏Blast_gaitubao_725x412.png);*/
+	/*	padding-left: 120px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	/*}*/
+	/*.sousuo_2{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏keyword_gaitubao_725x412.png);*/
+	/*	padding-left: 120px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	/*}*/
+	/*.sousuo_3{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏Team.png);*/
+	/*	padding-left: 120px;*/
+	/*	padding-bottom: 1.25rem;*/
+	
+	/*}*/
+	
+	
+	/*.bk{*/
+	/*	height: 350px;*/
+	/*}*/
+	/*.bk span{*/
+	/*	font-size: 36px !important;*/
+	/*	height: 87.5px;*/
+	/*	border: #000000;*/
+	/*	border-width: 0.0625rem;*/
+	/*}*/
+	/*.content_1{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 80px;*/
+	/*	top:30px;*/
+	/*	left:-345px;*/
+		
+		
+	/*}*/
+	/*.content_2{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 85px;*/
+	/*	top:120px;*/
+	/*	left:-345px;*/
+		
+		
+	/*}*/
+	
+	/*.content_3{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 85px;*/
+	/*	top:205px;*/
+	/*	left:-345px;		*/
+	/*}*/
+	
+	/*.content_4{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 85px;*/
+	/*	top:295px;*/
+	/*	left:-345px;		*/
+	/*}*/
+	/*}*/
+	
+	
+	/*@media (min-width: 1200px) {*/
+	/*	.signin {*/
+	/*	padding-top: 270px;*/
+	/*	width:300px;*/
+	/*	height:478px;*/
+	/*	padding-bottom: 550px;*/
+	/*	position:relative;*/
+	/*	top:50%;*/
+	/*	left: 55%;*/
+	/*	margin-top:-239px;*/
+	/*	margin-left:-238px;*/
+	/*	z-index: 100;*/
+		
+	
+	/*}*/
+	/*	.signin_1{*/
+	/*		padding-top: 270px;*/
+	/*		width:300px;*/
+	/*		height:478px;*/
+	/*		padding-bottom: 550px;*/
+	/*		position:relative;*/
+	/*		top:50%;*/
+	/*		left: 55%;*/
+	/*		margin-top:-239px;*/
+	/*		margin-left:-238px;*/
+	/*		z-index: 100;*/
+	/*	}*/
+	
+	
+	
+	/*.sousuo{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/Blast搜索.jpg);*/
+	/*	padding-left: 6.25rem;*/
+	/*	padding-bottom: 1.25rem;*/
+	/*	margin-top: 30px;*/
+	/*	box-shadow: 0 0 5px 3px #cacac9;*/
+	/*}*/
+	
+	
+	/*.bk{*/
+	/*	height: 350px;*/
+	/*}*/
+	/*.bk span{*/
+	/*	font-size: 36px !important;*/
+	/*	height: 87.5px;*/
+	/*	border: #000000;*/
+	/*	border-width: 0.0625rem;*/
+	/*}*/
+	/*.content_1{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 80px;*/
+	/*	top:30px;*/
+	/*	left:-373px;*/
+		
+		
+	/*}*/
+	/*.content_2{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 85px;*/
+	/*	top:120px;*/
+	/*	left:-373px;*/
+		
+		
+	/*}*/
+	
+	/*.content_3{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 85px;*/
+	/*	top:205px;*/
+	/*	left:-373px;		*/
+	/*}*/
+	
+	/*.content_4{*/
+	/*	position: absolute;*/
+	/*	width: 170px;*/
+	/*	height: 85px;*/
+	/*	top:295px;*/
+	/*	left:-373px;		*/
+	/*}*/
+	/*.sousuo_4{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏Blast_gaitubao_725x412.png);*/
+	/*	padding-left: 6.25rem;*/
+	/*	padding-bottom: 1.25rem;*/
+		
+	/*}*/
+	/*.sousuo_2{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏keyword_gaitubao_725x412.png);*/
+	/*	padding-left: 6.25rem;*/
+	/*	padding-bottom: 1.25rem;*/
+		
+	/*}*/
+	/*.sousuo_3{*/
+	/*	position: relative;*/
+	/*	height: 400px;*/
+	/*	width: 730px;*/
+	/*	background-image: url(../../images/搜索栏Team.png);*/
+	/*	padding-left: 6.25rem;*/
+	/*	padding-bottom: 1.25rem;*/
+		
+	/*}	*/
+	/*}*/
+	/*.one{*/
+	/*	background: red;*/
+	/*}*/
+	/*.sousuo{*/
+	/*	background-image: url(../../images/预测界面.jpg);*/
+	/*	margin-top: 30px;*/
+	/*	border-radius: 10px;*/
+	/*}*/
+

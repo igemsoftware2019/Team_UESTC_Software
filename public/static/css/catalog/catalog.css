@@ -1,0 +1,135 @@
+body{
+	min-width: 767px;
+}
+h5{
+	font-size: 1.4em;
+	font-weight: 800;
+	color: #333333;
+	margin-top: 35px;
+}
+.part-select{
+	margin-top: 20px;
+}
+.part-select div{
+	background: #b4cad9;
+	height: 40px;
+	border-right:2px solid white;
+}
+.part-select div:nth-child(3){
+	border:none;
+}
+.info-tab .head-type th, .info-tab .head-type td {
+    border-color: #666;
+}
+/*.info-tab .head-type{*/
+/*	border-color: #666;*/
+/*}*/
+/*.info-tab .head-type th,.info-tab .head-type td{*/
+/*	border-color:#666;*/
+/*}*/
+.table{
+	/*border-collapse:separate;*/
+	/*border: 1px solid #f27d5c;*/
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 0;
+}
+.table tbody tr th,.table thead tr th{
+    border-bottom: 1px solid #f27d5c;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	line-height: 100%;
+	/*width:180px;*/
+}
+.table thead tr th{
+	background: #c8e0ff;
+	vertical-align: top;
+	border-right: none;
+}
+.table tbody tr:last-child th,.table tbody tr:last-child td{
+	border-bottom:none;
+}
+.table th:last-child,.table td:last-child{
+	border-right: none;
+}
+.table thead th:first-child{
+	border-radius: 5px 0 0 0;
+}
+.table thead th:last-child{
+	border-radius: 0 5px 0 0;
+}
+.table tbody tr td,.table thead tr td{
+    border-bottom: 1px solid #f27d5c;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.head-type{
+	border:none !important;
+}
+.div-head{
+	border: 1px solid #666 !important;
+}
+.info-tab{
+	border: 1px solid #f27d5c;
+    border-radius: 5px;
+}
+/* 表格样式 */
+.content > div{
+	background: white;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+.block {
+	
+	background: #dcebf6;
+	border-radius: 8px;
+}
+.block div:nth-child(1){
+	background: #cbddea;
+	float: left;
+	border-radius: 8px 0 0 8px;
+	padding-left:20px;
+	width: 190px;
+	min-height: 45px;
+	display: flex;
+	align-items: center;
+}
+.block div:nth-child(1) span,.block div:nth-child(1) img{
+	display: inline-block;
+}
+.block div:nth-child(2){
+	background:#d9f5fc;
+	border-bottom: #084484 3px solid;
+	border-right: #87aad0 3px solid;
+	border-left: #87aad0 3px solid;
+	border-top: #c3d7ec 3px solid;
+	float: left;
+	min-height: 45px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block div:nth-child(3){
+	float: left;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.text-block{
+	border-radius: 100px;
+	box-shadow: darkgrey 0 0 10px 2px;
+	padding:.5px 5px;
+	margin: 5px 10px;
+}
+
+.text-block div {
+    background-color: #f27d5c;
+    border-radius: 100px;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}

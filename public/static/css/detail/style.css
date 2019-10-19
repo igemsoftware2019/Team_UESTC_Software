@@ -1,0 +1,785 @@
+/* 搜索栏 */
+body,html{min-width: 767px;padding-top:0;}
+.dialog #hdtbl-6{
+				top:initial !important;
+}
+.nav-part{
+	position: absolute;
+	background-color: white;
+	width:16%;
+	border-right: 1px solid #648cba;
+	border-bottom: 1px solid #648cba;
+	border-left: 1px solid #648cba;
+	box-shadow: 2px 0 10px 0.5px #A3BED3;
+	padding: 0.1px;
+	max-width:180px;
+	top:100%;
+}
+
+.nav-part-xs{
+	position: absolute;
+	background-color: white;
+	width:100%;
+	border-right: 1px solid #648cba;
+	border-bottom: 1px solid #648cba;
+	border-left: 1px solid #648cba;
+	box-shadow: 2px 0 10px 0.5px #A3BED3;
+	padding: 0.1px;
+	top:100%;
+}
+.nav-part-xs > div{
+	font-size:18px;
+	display: block;
+	width: 78%;
+	margin:10px auto;
+}
+.nav-part-xs .dropdown-x-menu{
+	border-radius: 0px;
+	border: 1px solid #648cba;
+}
+.nav-part-xs .li-selected{
+	background: #c8e0ff;
+}
+.nav-part-xs .dropdown-x-menu{
+	left:0;
+}
+.nav-part-xs .libs li:nth-child(1) .dropdown-x-menu,
+.nav-part-xs .libs li:nth-child(2) .dropdown-x-menu,
+.nav-part-xs .libs li:nth-child(3) .dropdown-x-menu{
+	writing-mode: vertical-lr;
+	height: 160px;
+	font-size: 0;
+}
+.nav-part-xs .libs li:nth-child(1) .dropdown-x-menu li,
+.nav-part-xs .libs li:nth-child(2) .dropdown-x-menu li,
+.nav-part-xs .libs li:nth-child(3) .dropdown-x-menu li{
+	writing-mode: horizontal-tb;
+	display: inline-block;
+}
+.nav-part-xs .libs{
+	display: flex;
+	flex-wrap: wrap;
+	width: 85%;
+	margin: 0 auto;
+}
+.nav-part-xs .libs >li{
+	list-style:none;
+	margin: 0 auto;
+	width:25%;
+}
+.nav-part-xs >.libs >li >a{
+	display: block;
+	margin:0 auto;
+	text-decoration: none;
+	color: #999;
+	font-size:18px;
+	line-height: 43px;
+}
+.nav-part-xs >.libs >li >ul >li >a{
+	display: block;
+	margin:0 auto;
+	text-decoration: none;
+	font-size:18px;
+	line-height: 22px;
+}
+.nav-part-xs > .organisms{
+	list-style: none;
+	width:85%;
+	margin: 0 auto;
+	overflow-x: auto;
+	display: flex;
+}
+.nav-part-xs > .organisms li{
+	float: left;
+	margin:0 10px;
+	font-size: 18px;
+	
+}
+
+.nav-part > div{
+	font-size:18px;
+	display: block;
+	width: 88%;
+	margin:10px auto;
+}
+.nav-part .dropdown-x-menu{
+	border-radius: 0px;
+	border: 1px solid #648cba;
+}
+.nav-part .li-selected{
+	background: #c8e0ff;
+}
+
+.nav-part .libs li,.nav-part .organisms li{
+	width: 100%;
+	list-style:none;
+}
+.nav-part >.libs >li >a,.nav-part >.organisms >li >a{
+	width:88%;
+	display: block;
+	margin:0 auto;
+	text-decoration: none;
+	color: #666;
+	font-size:18px;
+	line-height: 43px;
+}
+.nav-part >.libs >li >ul >li >a,.nav-part >.organisms >li >ul >li >a{
+	display: block;
+	margin:0 auto;
+	text-decoration: none;
+	font-size:18px;
+	line-height: 22px;
+}
+.nav-part > .organisms > .li-selected > a,.nav-part > .libs > .li-selected > a{
+	color: #396597;
+}
+.nav-tabs > li > a{
+	border: 1px solid #ddd;
+	color: #666;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	color: #337ab7;
+	background: #f8f9fd;
+}
+.dropdown-x-menu{
+	top:0;
+	left:100%;
+}
+/* 左侧导航栏 */
+
+.igem-part .part-name{
+	display: flex;
+	align-items: center;
+}
+.igem-part .part-name span{
+	color: #396597;
+	font-size: 25px;
+	font-weight: 500;
+	padding: 10px 0;
+	border: #f27d5c 2px solid;
+	border-radius: 10px;
+	display: inline-block;
+	width:100%;
+	line-height: 35px;
+	text-align: center;
+}
+.igem-part .part-line{
+	float: left;
+	height: 2px;
+	background-color: #f27d5c;
+	margin: 63px 0;
+}
+.igem-part .part-name div{
+	float: left;
+}
+
+.igem-part h2:before{
+	content: url(../../images/未标题-1.png);
+}
+.igem-part h4{
+	font-size: 1.8em;
+	color: #396597;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f27d5c ;
+	margin:40px 0 35px 0;
+}
+.igem-part h5{
+	font-size: 1.4em;
+	font-weight: 800;
+	color: #333333;
+	margin-top: 35px;
+}
+.info{
+	margin: 20px;
+}
+.info ul{
+	list-style: none ;
+}
+.info ul li{
+	margin-bottom: 10px;
+}
+.info ul li:before,.info ul li:after {
+	display: table;
+	content: " "
+  }
+  .info ul li:after {
+	clear: both
+  }
+.info ul li div{
+	border-right:1px solid #f27d5c;
+	width:120px;
+	padding-right:10px;
+	float: left;
+	font-size: 15px;
+	font-weight: 600;
+}
+.info ul li p{
+	padding-left:10px;
+	overflow: hidden;
+}
+.div-head{
+	border: 1px solid #666 !important;
+}
+.info-tab .head-type{
+	border-color: #666;
+}
+.info-tab .head-type th,.info-tab .head-type td{
+	border-color:#666;
+}
+.info-tab{
+	border: 1px solid #f27d5c;
+    border-radius: 5px;
+}
+.info-tab h5 + .table{
+	margin-bottom: 20px;
+}
+.info-tab p{
+	padding: 0 5px;
+}
+.showpage{
+	display:block !important;
+}
+.hidepage{
+	display:none;
+}
+.table{
+	/*border-collapse:separate;*/
+	/*border: 1px solid #f27d5c;*/
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 0;
+}
+.table tbody tr th,.table thead tr th{
+    border-bottom: 1px solid #f27d5c;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	line-height: 100%;
+	/*width:180px;*/
+}
+.table thead tr th{
+	background: #c8e0ff;
+	vertical-align: top;
+	border-right: none;
+}
+.table tbody tr:last-child th,.table tbody tr:last-child td{
+	border-bottom:none;
+}
+.table th:last-child,.table td:last-child{
+	border-right: none;
+}
+.table thead th:first-child{
+	border-radius: 5px 0 0 0;
+}
+.table thead th:last-child{
+	border-radius: 0 5px 0 0;
+}
+.table tbody tr td,.table thead tr td{
+    border-bottom: 1px solid #f27d5c;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.head-type{
+	border:none !important;
+}
+/*.head-type thead tr th{*/
+/*	border-top:1px solid #666 !important;*/
+/*}*/
+/*.head-type thead tr th:first-child,*/
+/*.head-type tbody tr td:first-child{*/
+/*	border-left:1px solid #666;*/
+/*}*/
+/*.head-type thead tr th:last-child,*/
+/*.head-type tbody tr td:last-child{*/
+/*	border-right:1px solid #666;*/
+/*}*/
+/*.head-type tbody tr:last-child td{*/
+/*	border-bottom:1.2px solid #666;*/
+/*}*/
+.comment-part-1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+.comment-part-1 h3{
+	display: inline;
+	color: #396597;
+}
+.comment-part-1 p{
+	word-break: break-all;
+}
+.comment-part-2{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+.comment-part-2 p{
+	width: 80%;
+	font-size: 16px;
+}
+.comment-part-2 .comments{
+	width: 100%;
+	margin:initial;
+	box-shadow:0px 0px 10px #e4e1e1 inset;
+	height: 100px;
+	background: white;
+	padding: 5px;
+}
+.comments{
+	border: 1px solid #f27d5c;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 10%;
+	background: white;
+	padding: 20px;
+}
+.user-name{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.comment-message{
+	font-size: 14px;
+	color: #8e8e8e;
+	margin-bottom: 8px;
+}
+.comment-message span:nth-child(1){
+	margin-right: 20px;
+}
+/* 基本的表格样式 */
+
+.Protein_feature .table tbody td:nth-child(3) div{
+	background: #ffdcd2;
+	width: 180px;
+	height: 20px;
+}
+.Protein_feature .table tbody td:nth-child(3) div div{
+	background: #f27d5c;
+	height: 100%;
+	width: 4px;
+	margin-left: 10px;
+}
+.Evidence,.Interaction_INTERPRO-Protein-Domains-Feartures{
+	max-height:400px;
+	overflow-y: auto;
+}
+
+#Interaction_Biogrid + div{
+	padding: 10px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 2px 0 10px 0.5px #A3BED3;
+}
+.Biogrid_item{
+	border: 1px solid #666;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.Biogrid_item >div:nth-child(1){
+	background: #c8e0ff;
+	border-radius: 5px 5px 0 0;
+}
+.Biogrid_item >div:nth-child(1) span:nth-child(1){
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 10px;
+	margin: 5px 0;
+	border-right: 1px solid #666;
+}
+.Biogrid_item >div:nth-child(1) span:nth-child(2){
+	display: inline-block;
+	margin-left: 10px;
+}
+.Biogrid_text{
+	padding: 10px;
+}
+.Biogrid_text div div{
+	display: inline-block;
+	border-radius: 100px;
+	padding: 0 10px;
+	background: #c8e0ff;
+}
+.ANNOTATION_GO+div a{
+	text-decoration: none;
+	margin: 5px;
+}
+.Enzyme_Basical_Information table tbody td:first-child button,
+.Enzyme_Experiment_Information table tbody td:first-child button{
+	    color: #f27d5c;
+	    border: #f27d5c 1px solid;
+	    border-radius: 20px;
+	    padding: 0 5px 0 7px;
+	    display: inline-block;
+		margin-left: 15px;
+		background: white;
+		width: 100px;
+}
+
+.organism-select{
+	display: inline-block;
+	box-shadow: black 0 0 4px 0.01px;
+	border-radius: 50px;
+	position: relative;
+}
+.organism-select .dropdown-x-menu{
+	top:120%;
+	left: 0;
+	padding: 10px;
+	box-shadow: black 0 1px 4px 0.01px;
+}
+.organism-select .dropdown-x-menu li{
+	border-bottom: dashed 2px #c8e0ff;
+	height: 30px;
+	font-size: 18px;
+}
+.organism-select .dropdown-x-menu li:last-child{
+	border-bottom: none;
+}
+.organism-select .org-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #c8e0ff;
+	width:100px;
+	height:50px;
+	border-radius: 50px;
+	float: left;
+	margin-left: -90px;	
+}
+.organism-select .org-btn .iconfont{
+	transform:rotate(90deg);
+	color: white;
+	font-size: 25px;
+}
+.organism-select .org-text{
+	border-radius: 50px;
+	height:50px;
+	width:500px;
+	float: left;
+	font-size: 25px;
+	line-height: 50px;
+	overflow: hidden;
+}
+.modal-header{
+	padding: 15px 15px 0 15px;
+}
+.modal-btn{
+	color: #f27d5c;
+	border: #f27d5c 1px solid;
+	border-radius: 20px;
+	padding: 0 5px 0 7px;
+	display: inline;
+	margin-left: 15px;
+	background: white;
+}
+
+.example{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.example span{
+	font-size: 16px;
+	margin-left: 40px;
+	font-weight: bold;
+}
+.example >div >div:nth-child(1){
+	background: #ffc897;
+	border-radius: 5px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
+.example >div >div:nth-child(2){
+	background: #c8e8ff;
+	border-radius: 5px;
+	padding: 0 10px;
+}
+.example + div .table{
+	border-collapse:separate;
+	border-spacing:0px 10px;
+	border:none;
+}
+.example + div .table th{
+	border: none;
+	background: none;
+}
+.example + div .table .PI td{
+	border: none;
+	background: #ffc897;
+}
+.example + div .table .GI td{
+	border: none;
+	background: #c8e8ff;
+}
+.example + div .table tr td:first-child{
+	border-radius: 5px 0 0 5px;
+}
+.example + div .table td:last-child{
+	border-radius: 0px 5px 5px 0px;
+}
+
+/* 一些特殊内容的样式 */
+.show-s {
+	display: block !important;
+}
+.container .row .hidden-s {
+	display: none !important;
+}
+/*.nav-top>.container>.row{*/
+/*	min-height: 90px; */
+/*}*/
+/*.nav-top>.container>.row .navbar-header{*/
+/*	width: 100%;*/
+/*}*/
+.nav-dropdown{
+	display: none;
+}
+#node{
+	padding-right:10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#node span{
+	color: rgb(65, 132, 217);
+	font-size: 16px;
+}
+#edge{
+	padding-right:10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#edge span{
+	color: rgb(65, 132, 217);
+	font-size: 16px;
+}
+@media (max-width: 767px) {
+	.nav-top>.container>.row {
+		min-height: 60px;
+	}
+}
+.nav-part,
+.navbar-nav{
+	display: none;
+}
+
+.text-block{
+	border-radius: 100px;
+	box-shadow:darkgrey 0 0 10px 2px;
+	padding: 0 5px;
+	margin-right: 8.33333333%;
+	margin-top:20px;
+	height: 30px;
+	line-height: 30px;
+}
+.text-block div{
+	background: linear-gradient(to right,#ff815cf7
+,#ea5c18);
+	border-radius: 100px;
+	width:100%;
+    overflow: hidden;
+    height: 30px;
+    color: white;
+	font-size: 18px;
+}
+.text-block a{
+	color: white;
+	font-size: 18px;
+}
+.text-part{
+	border:1px solid #f27d5c;
+	border-radius: 10px;
+	padding: 0 15px;
+}
+.text-part p{
+	margin-top: 10px;
+}
+.text-scroll{
+	max-height:300px;
+	overflow-y:auto;
+}
+.tab-content>div{
+	padding: 10px;
+	box-shadow: 2px 0 10px 0.5px #A3BED3;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	word-wrap:break-word;  
+	word-break:break-all;  	
+}
+.tab-content div p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.sequence-text{
+	word-break: break-all;
+}
+/* 主要部分 */
+@media(max-width: 767px){
+	.igem-part{padding-top: 80px;}
+	.part-name-Igem div:nth-child(2){width:22%;}
+	.part-name-Igem .part-line{width:39%;}
+	.part-name-Uniprot div:nth-child(2){width:32%;}
+	.part-name-Uniprot .part-line{width:34%;}
+	.part-name-KEGG div:nth-child(2){width:30%;}
+	.part-name-KEGG .part-line{width:35%;}
+	.part-name-ANNOTATION div:nth-child(2){width:56%;}
+	.part-name-ANNOTATION .part-line{width:22%;}
+	.part-name-Enzyme div:nth-child(2){width:34%;}
+	.part-name-Enzyme .part-line{width:33%;}
+	.part-name-KEGGenzyme div:nth-child(2){width:32%;}
+	.part-name-KEGGenzyme .part-line{width:34%;}
+	.part-name-Interaction div:nth-child(2){width:46%;}
+	.part-name-Interaction .part-line{width:26%;}
+	.part-name-Download div:nth-child(2){width:46%;}
+	.part-name-Download .part-line{width:26%;}
+	.part-name-Comment div:nth-child(2){width:46%;}
+	.part-name-Comment .part-line{width:26%;}
+	.nav-part{
+		min-width:160px;
+	}
+	.igem-part h2{
+		padding-bottom: 20px;
+		color: #396597;
+	}
+	.table{
+		border-collapse: separate;
+		border: 1px solid #f27d5c;
+		border-radius: 10px;
+	}
+	.Evidence{max-height: 250px;overflow-y: auto;}
+	footer .row{
+		justify-content: center;
+	}
+	.table-responsive{border: none;}
+	.table-responsive > .table-bordered {
+		border-collapse: separate;
+		border: 1px solid #f27d5c;
+		border-radius: 10px;
+	}
+	.info-tab .head-type{
+		border-color: #666;
+	}
+	.info-tab .head-type th,.info-tab .head-type td{
+		border-color:#666;
+	}
+}
+@media (max-width: 560px){
+	.organism-select{
+		width: 300px;
+		border-radius: 20px;
+	}
+	.organism-select .dropdown-x-menu{
+		width: 300px;
+	}
+	.organism-select .dropdown-x-menu li{
+		height: initial;
+	}
+	.organism-select .org-text{
+		width:300px;
+		float: initial;
+	}
+	.organism-select .org-btn{
+		float: initial;
+		width:300px;
+		height: initial;
+		margin: initial;
+		border-radius: 0 0 20px 20px;
+	}
+}
+
+@media (min-width: 768px){ /* 中型设备以上 */
+	body{padding-top:0px;}
+	.igem-part{padding-top:70px;}
+	/*.navbar-header{*/
+	/*	position: absolute;*/
+	/*	top:50%;*/
+	/*	left:0;*/
+	/*	transform: translate(0, -50%);*/
+	/*}*/
+	.igem-part h2{
+		font-size: 42px;
+		padding-bottom: 20px;
+		color: #396597;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)  { 
+	.part-name-Igem div:nth-child(2){width:12%;}
+	.part-name-Igem .part-line{width:44%;}
+	.part-name-Uniprot div:nth-child(2){width:16%;}
+	.part-name-Uniprot .part-line{width:42%;}
+	.part-name-KEGG div:nth-child(2){width:14%;}
+	.part-name-KEGG .part-line{width:43%;}
+	.part-name-ANNOTATION div:nth-child(2){width:28%;}
+	.part-name-ANNOTATION .part-line{width:36%;}
+	.part-name-Enzyme div:nth-child(2){width:16%;}
+	.part-name-Enzyme .part-line{width:42%;}
+	.part-name-KEGGenzyme div:nth-child(2){width:32%;}
+	.part-name-KEGGenzyme .part-line{width:34%;}
+	.part-name-Interaction div:nth-child(2){width:22%;}
+	.part-name-Interaction .part-line{width:39%;}
+	.part-name-Download div:nth-child(2){width:22%;}
+	.part-name-Download .part-line{width:39%;}
+	.part-name-Comment div:nth-child(2){width:22%;}
+	.part-name-Comment .part-line{width:39%;}
+	.nav-part{
+		width: 16%;
+	}
+	.nav-part > .libs > li > a{
+		font-size: 16px;
+	}
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+	.part-name-Igem div:nth-child(2){width:10%;}
+	.part-name-Igem .part-line{width:45%;}
+	.part-name-Uniprot div:nth-child(2){width:12%;}
+	.part-name-Uniprot .part-line{width:44%;}
+	.part-name-KEGG div:nth-child(2){width:12%;}
+	.part-name-KEGG .part-line{width:44%;}
+	.part-name-ANNOTATION div:nth-child(2){width:22%;}
+	.part-name-ANNOTATION .part-line{width:39%;}
+	.part-name-Enzyme div:nth-child(2){width:14%;}
+	.part-name-Enzyme .part-line{width:43%;}
+	.part-name-KEGGenzyme div:nth-child(2){width:22%;}
+	.part-name-KEGGenzyme .part-line{width:39%;}
+	.part-name-Interaction div:nth-child(2){width:18%;}
+	.part-name-Interaction .part-line{width:41%;}
+	.part-name-Download div:nth-child(2){width:16%;}
+	.part-name-Download .part-line{width:42%;}
+	.part-name-Comment div:nth-child(2){width:16%;}
+	.part-name-Comment .part-line{width:42%;}
+}
+@media (min-width: 992px) and (max-width:1199px){
+	.nav-part div:first-child{
+		line-height: 30px;
+	}
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	.nav-part div:first-child{
+		margin-top: 20px;
+	}
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1356329 */
+  src: url('//at.alicdn.com/t/font_1356329_vppwkrpecuq.eot');
+  src: url('//at.alicdn.com/t/font_1356329_vppwkrpecuq.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1356329_vppwkrpecuq.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1356329_vppwkrpecuq.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1356329_vppwkrpecuq.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1356329_vppwkrpecuq.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.banned{pointer-events:none;opacity:0.5;}
+	

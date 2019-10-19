@@ -1,0 +1,120 @@
+.sbol-visual {
+    padding-bottom:3px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    -webkit-justify-content: left;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.sbol-visual.centered {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.sbol-visual.small .sbolvs {
+    height: 80px; /* default is 120px */
+    min-width: 35px;  /* default is 50px */
+}
+
+.sbolvs {
+	user-select:none;
+    font-size: 13px;
+    line-height:13px;
+    height:80px;
+    min-width:40px;
+    max-width:150px;
+    text-align:center;
+    background-image: url(../../svg/user-defined.svg);
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	display: inline-block;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.sbol-visual.inline {
+    display: inline;
+}
+
+.sbol-visual.inline .sbolvs {
+    vertical-align: middle;
+    font-size: 2em;
+    background-size: auto 90%;
+    background-position: 30% auto;
+
+}
+
+.sbolvs.inline {
+    vertical-align: middle;
+    font-size: 2em;
+    background-size: auto 90%;
+    background-position: 30% auto;
+
+}
+
+.sbolvs.inverted {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    -o-filter: invert(100%);
+    filter: invert(100%);
+}
+.sbol-visual.inverted .sbolvs {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    -o-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.sbol-visual .combinatorial {
+    outline: 1px solid gray;
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom:8px;
+    margin-top:2px;
+    height:100%;
+
+}
+
+.sbol-visual .combinatorial .sbol-visual {
+    text-align: center;
+}
+
+.sbol-visual .combinatorial .sbolvs {
+    margin-top: -2px;
+}
+
+.antisense {
+    -moz-transform: scaleX(-1) scaleY(-1);
+    -o-transform: scaleX(-1) scaleY(-1);
+    -webkit-transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.sbolvs.barcode { background-image: url(../../svg/barcode.svg);}
+.sbolvs.binding { background-image: url(../../svg/binding.svg);}
+.sbolvs.Biobrick { background-image: url(../../svg/Biobrick.svg);}
+.sbolvs.cds { background-image: url(../../svg/cds.svg);}
+.sbolvs.conserved { background-image: url(../../svg/conserved.svg);}
+.sbolvs.insulator { background-image: url(../../svg/insulator.svg);}
+.sbolvs.misc { background-image: url(../../svg/misc.svg);}
+.sbolvs.mutation { background-image: url(../../svg/mutation.svg);}
+.sbolvs.NULL { background-image: url(../../svg/NULL.svg);}
+.sbolvs.operator { background-image: url(../../svg/operator.svg);}
+.sbolvs.polya { background-image: url(../../svg/polya.svg);}
+.sbolvs.promoter { background-image: url(../../svg/promoter.svg);}
+.sbolvs.rbs { background-image: url(../../svg/RBS.svg);}
+.sbolvs.scar { background-image: url(../../svg/scar.svg);}
+.sbolvs.start { background-image: url(../../svg/start.svg);}
+.sbolvs.stem_loop { background-image: url(../../svg/stem_loop.svg);}
+.sbolvs.stop { background-image: url(../../svg/stop.svg);}
+.sbolvs.tag { background-image: url(../../svg/tag.svg);}
+.sbolvs.terminator { background-image: url(../../svg/terminator.svg);}
+.sbolvs.user-defined { background-image: url(../../svg/user-defined.svg);}
+.sbolvs.Signature { background-image: url(../../svg/Signature.svg);}

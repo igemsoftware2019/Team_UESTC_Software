@@ -1,0 +1,157 @@
+.sbol-visual {
+    padding-bottom:3px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    -webkit-justify-content: left;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.sbol-visual.centered {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.sbol-visual.small .sbolv {
+    height: 80px; /* default is 120px */
+    min-width: 35px;  /* default is 50px */
+}
+
+.sbolv {
+    font-size: 12px;
+    line-height:60px;
+    height:130px;
+    max-height: 130px;
+    min-width:100px;
+    max-width:450px;
+    text-align:center;
+    background-image: url(../../svg/user-defined.svg);
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	margin-right: -7.5px;
+	margin-left: -7.5px;
+}
+
+.sbol-visual.inline {
+    display: inline;
+}
+
+.sbol-visual.inline .sbolv {
+    vertical-align: middle;
+    font-size: 2em;
+    background-size: auto 90%;
+    background-position: 30% auto;
+
+}
+
+.sbolv.inline {
+    vertical-align: middle;
+    font-size: 2em;
+    background-size: auto 90%;
+    background-position: 30% auto;
+
+}
+
+.sbolv.inverted {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    -o-filter: invert(100%);
+    filter: invert(100%);
+}
+.sbol-visual.inverted .sbolv {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    -o-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.sbol-visual .combinatorial {
+    outline: 1px solid gray;
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom:8px;
+    margin-top:2px;
+    height:100%;
+
+}
+
+.sbol-visual .combinatorial .sbol-visual {
+    text-align: center;
+}
+
+.sbol-visual .combinatorial .sbolv {
+    margin-top: -2px;
+}
+
+.antisense {
+    -moz-transform: scaleX(-1) scaleY(-1);
+    -o-transform: scaleX(-1) scaleY(-1);
+    -webkit-transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.sbolv.barcode { background-image: url(../../svg/barcode.svg);}
+.sbolv.primer_binding { background-image: url(../../svg/binding.svg);}
+.sbolv.binding { background-image: url(../../svg/binding.svg);}
+.sbolv.Biobrick { background-image: url(../../svg/Biobrick.svg);}
+.sbolv.BioBrick { background-image: url(../../svg/Biobrick.svg);}
+.sbolv.cds { background-image: url(../../svg/cds.svg);}
+.sbolv.CDS { background-image: url(../../svg/cds.svg);}
+.sbolv.conserved { background-image: url(../../svg/conserved.svg);}
+.sbolv.insulator { background-image: url(../../svg/insulator.svg);}
+.sbolv.misc { background-image: url(../../svg/misc.svg);}
+.sbolv.misc_feature { background-image: url(../../svg/misc.svg);}
+.sbolv.mutation { background-image: url(../../svg/mutation.svg);}
+.sbolv.s_mutation { background-image: url(../../svg/mutation.svg);}
+.sbolv.NULL { background-image: url(../../svg/NULL.svg);}
+.sbolv.operator { background-image: url(../../svg/operator.svg);}
+.sbolv.polya { background-image: url(../../svg/polya.svg);}
+.sbolv.polyA_site { background-image: url(../../svg/polya.svg);}
+.sbolv.promoter { background-image: url(../../svg/promoter.svg);}
+.sbolv.rbs { background-image: url(../../svg/RBS.svg);}
+.sbolv.RBS { background-image: url(../../svg/RBS.svg);}
+.sbolv.scar { background-image: url(../../svg/scar.svg);}
+.sbolv.start { background-image: url(../../svg/start.svg);}
+.sbolv.stem_loop { background-image: url(../../svg/stem_loop.svg);}
+.sbolv.stop { background-image: url(../../svg/stop.svg);}
+.sbolv.tag { background-image: url(../../svg/tag.svg);}
+.sbolv.terminator { background-image: url(../../svg/terminator.svg);}
+.sbolv.user-defined { background-image: url(../../svg/user-defined.svg);}
+.sbolv.Signature { background-image: url(../../svg/Signature.svg);}
+
+.sbolv.barcode-1 { background-image: url(../../svg/barcode.1.svg);}
+.sbolv.primer_binding-1 { background-image: url(../../svg/binding.1.svg);}
+.sbolv.binding-1 { background-image: url(../../svg/binding.1.svg);}
+.sbolv.Biobrick-1 { background-image: url(../../svg/Biobrick.1.svg);}
+.sbolv.BioBrick-1 { background-image: url(../../svg/Biobrick.1.svg);}
+.sbolv.cds-1 { background-image: url(../../svg/cds.1.svg);}
+.sbolv.CDS-1 { background-image: url(../../svg/cds.1.svg);}
+.sbolv.conserved-1 { background-image: url(../../svg/conserved.1.svg);}
+.sbolv.insulator-1 { background-image: url(../../svg/insulator.1.svg);}
+.sbolv.misc-1 { background-image: url(../../svg/misc.1.svg);}
+.sbolv.misc_feature-1 { background-image: url(../../svg/misc.1.svg);}
+.sbolv.mutation-1 { background-image: url(../../svg/mutation.1.svg);}
+.sbolv.s_mutation-1 { background-image: url(../../svg/mutation.1.svg);}
+.sbolv.NULL-1 { background-image: url(../../svg/NULL.1.1.svg);}
+.sbolv.operator-1 { background-image: url(../../svg/operator.1.svg);}
+.sbolv.polya-1 { background-image: url(../../svg/polya.1.svg);}
+.sbolv.polyA_site-1 { background-image: url(../../svg/polya.1.svg);}
+.sbolv.promoter-1 { background-image: url(../../svg/promoter.1.svg);}
+.sbolv.rbs-1 { background-image: url(../../svg/RBS.1.svg);}
+.sbolv.RBS-1 { background-image: url(../../svg/RBS.1.svg);}
+.sbolv.scar-1 { background-image: url(../../svg/scar.1.svg);}
+.sbolv.start-1 { background-image: url(../../svg/start.1.svg);}
+.sbolv.stem_loop-1 { background-image: url(../../svg/stem_loop.1.svg);}
+.sbolv.stop-1 { background-image: url(../../svg/stop.1.svg);}
+.sbolv.tag-1 { background-image: url(../../svg/tag.1.svg);}
+.sbolv.terminator-1 { background-image: url(../../svg/terminator.1.svg);}
+.sbolv.user-defined-1 { background-image: url(../../svg/user-defined.1.svg);}
+.sbolv.Signature-1 { background-image: url(../../svg/Signature.1.svg);}
