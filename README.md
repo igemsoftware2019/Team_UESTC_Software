@@ -1,13 +1,9 @@
 # [BioMaster2.0](http://bio.biomaster-uestc.com/public/index.php/main/home)
 
-![Please Refresh](https://github.com/igemsoftware2019/Team_UESTC_Software/raw/master/public/static/images/1004.png)
-
-
 In this repository, not only contain all PHP codes about our web, but also contain all data, updata codes, docker and so on.
 
-### Note : Please use "git clone" to get the repository avoid some big data missing in .zip !
+### Note : Because we push some large files which may download failed, please download them [`parts`](https://github.com/igemsoftware2019/Team_UESTC_Software/raw/master/uestcdock/data/mysql/a/parts.ibd)   [`parts_es.ibd`](https://github.com/igemsoftware2019/Team_UESTC_Software/raw/master/uestcdock/data/mysql/a/parts_es.ibd)   [`reference`](https://github.com/igemsoftware2019/Team_UESTC_Software/raw/master/uestcdock/data/mysql/a/reference.ibd)alone, and move them to ./uestcdock/data/mysql/a .
 
-    $ git clone https://github.com/igemsoftware2019/Team_UESTC_Software
 
 ## Installation
 
@@ -18,6 +14,11 @@ If you want to run our project on your localhost to be deepen. Please make sure 
 * docker 
 
 * docker-compose `1.7.0+` 
+
+Clone our project:
+
+
+    $ git clone https://github.com/igemsoftware2019/Team_UESTC_Software
 
 After gitclone, firstly, go to preject:
 
