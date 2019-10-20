@@ -13,13 +13,11 @@ In this repository, not only contain all PHP codes about our web, but also conta
 
 In order to share our project widely, we decided to use docker. If you only want to try BioMaster2.0, just click [here](http://bio.biomaster-uestc.com/public/index.php/main/home)
 
-If you want to run our project on your localhost to be deepen. Please make sure you have already installed
+If you want to run our project on your localhost to be deepen. Please make sure you have already reached those requirements
 
-    docker
+* docker 
 
-and
-
-    docker-compose 1.7.0+.
+* docker-compose `1.7.0+` 
 
 After gitclone, firstly, go to preject:
 
@@ -51,3 +49,9 @@ Hope to make the idea of ynthetic biology more accessible and easier to the publ
 ### Usage
 After clone, go to folder BioME where contain all we need. Just click "Catan(1).exe" to play. Remeber unchecking "windowed".
 For linux user, you need get help from wine running BioME.
+
+## Advance Information
+To know more about BioMaster2.0, you can come to our [wiki](https://2019.igem.org/Team:UESTC-Software) page. What's more, here is a demonstration [viedo](https://2019.igem.org/Team:UESTC-Software/Demonstrate) which can be a user guid for you to use Biomaster2.0
+
+## Contact Us
+If you have any suggestions, welcome to contact us on uestcsoftware@vip.qq.com.
