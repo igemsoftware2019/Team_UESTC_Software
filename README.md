@@ -1,4 +1,4 @@
-![Please Refresh](https://github.com/igemsoftware2019/Team_UESTC_Software/raw/master/public/static/images/1004.jpg)
+![Please Refresh](https://github.com/igemsoftware2019/Team_UESTC_Software/raw/master/public/static/images/1004.png)
 # [BioMaster2.0](http://bio.biomaster-uestc.com/public/index.php/main/home)
 
 In this repository, not only contain all PHP codes about our web, but also contain all data, updata codes, docker and so on.
